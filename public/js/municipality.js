@@ -21,7 +21,7 @@
                     select += '<option>'+response['ciudades'][key]+'</option>';
                 });
 
-                $('#municipality').html(select);
+                $('#city').html(select);
             }
         });
     }
